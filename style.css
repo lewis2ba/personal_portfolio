@@ -1,0 +1,85 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  height: auto;
+  font-family: "Helvetica";
+}
+header{
+  background-image: url("http://images6.fanpop.com/image/photos/36100000/Christmas-image-christmas-36118465-1920-1200.jpg");
+  height: 400px;
+}
+#intro{
+  padding-top: 120px;
+}
+.nav-bar{
+  text-align: right;
+}
+h1{
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: normal;
+  padding: 25px 0 0px 0;
+}
+h2{
+  color: black;
+  text-align: center;
+  margin: 0 auto;
+  font-weight: normal;
+  padding: 25px 0 20px 0;
+  margin: 10px 0 0 0;
+}
+.about{
+  background: lightgray;
+  display: inline-block;
+  max-width: 100%;
+}
+.about p{
+  max-width: 55%;
+  text-align: justify;
+  margin: 0 auto;
+  padding: 0 0 50px 0;
+}
+li{
+  display: inline;
+}
+
+.about img{
+  width: 250px;
+  border-radius: 50%;
+  border: black solid 5px;
+  float: right;
+  margin: 0 0 10px 10px;
+}
+
+.projects{
+  background: #A0A0A0;
+  display: inline-block;
+  max-width: 100%;
+}
+.projects img{
+  max-width: 40%;
+  border-radius: 25px;
+  border: black solid 5px;
+  float: left;
+  margin: 0px 10px 10px 10px;
+}
+.projects p{
+  max-width: 60%;
+  text-align: justify;
+  margin: 0 auto;
+  max-height: 70%;
+}
+.experience{
+  max-width: 100%;
+
+}
+.contact{
+  max-width: 100%;
+}
+
+.contactbar{
+  text-align: center;
+}
