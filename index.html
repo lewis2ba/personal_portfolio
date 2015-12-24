@@ -1,8 +1,14 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Brendan Lewis - Far-From Web Developer</title>
+		<title>Brendan Lewis - Web Developer</title>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="style.css">
+		<script src="https://code.jquery.com/jquery-2.1.4.js"></script>
+		<script src="script.js"></script>
+
+		<!-- <link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/normalize.css"> -->
 	</head>
 	 <body>
     <header>
@@ -10,41 +16,61 @@
         <ul class = "nav-bar">
           <li class = "page-scroll"><a href = "#about">About</a></li>
           <li class = "page-scroll"><a href = "#projects">Projects</a></li>
-          <li class = "page-scroll"><a href = "#experience">Experience</a></li>
+          <li class = "page-scroll"><a href = "#skills">Skills</a></li>
           <li class = "page-scroll"><a href = "#contact">Contact</a></li>
         </ul>
       </div>
         <div id ="intro">
           <h1>Brendan Lewis</h1>
-            <h2>Far-From Web Developer</h2>
+            <h2>Web Developer</h2>
         </div>
     </header>
 		<main>
       <div class ="about">
-        <h1>About</h1>
-        <h2>My story</h2>
-        <p><img src = "images/me.jpg">Breath weapon circumstance bonus compulsion creature type critical hit enhancement bonus extraordinary ability fire domain goblinoid subtype granted power large miniature figure nonabilities nonintelligent nonplayer character one-handed weapon positive energy shaken touch attack transitive plane. Competence bonus compulsion subschool deafened dungeon master energy drain experience points fear aura frightful presence gold piece huge melee attack roll negate outsider type polymorph scry stunned turning damage tyranny domain.</p>
+        <h1><a id="about"></a>About</h1>
+				<hr>
+				<div class = "story">
+        	<h2>My story</h2>
+        	<p><img src = "images/me.jpg" alt ="Me!"> I am an aspiring web developer with an insatiable hunger to learn. My ability to communicate effectively with people from different backgrounds makes me a great addition to any team. I am excited to use my skills to problem solve and build great things.</p>
+				</div>
       </div>
       <div class="projects">
-        <h1>Projects</h1>
-        <h2>Project #1</h2>
-        <p><img src = "http://cdn.skateboarding.transworld.net/wp-content/blogs.dir/440/files/2012/06/gsdbingaman.jpg">Ability decrease dodge bonus falling objects halfling domain knocked down negative level size modifier skill modifier summon take 10 unarmed attack. Adjacent concentrate on a spell construct type dispel turning evil domain full-round action half speed pattern subschool spell immunity staggered strength stunned subschool undeath domain.</p>
+        <h1><a id="projects"></a>Projects</h1>
+				<hr>
+        <h2>Concentration</h2>
+        <p><img src = "images/concentration.png">  A memory game where the player clicks on squares to reveal images. When two of the same image is chosen a match is made. The player wins when all the images are matched with its pair. Concentration was build with jQuery, HTML, and CSS.</p>
 
-        <h2>Project #2</h2>
-        <p><img src = "http://www1.pictures.gi.zimbio.com/Olympics+Day+5+Weightlifting+2pA3NooqL-1l.jpg">
-        Blinded casting time concentrate on a spell deafened enhancement bonus extraordinary ability halfling domain humanoid type lawful level adjustment necromancy negative energy one-handed weapon scent spell version sun domain wisdom.</p>
+        <h2>Twain</h2>
+        <p><img src = "images/twain.png" alt = "Weightlifting">
+        Twain is a social media/trading website for readers built with Ruby on Rails and Bootstrap. Users can create a profile and upload books that they have and view other users books. Users can email other users to suggest trades. Users can also filter books by tag on the index page.</p>
+
+				<h2>Rembr</h2>
+				<p><img src = "images/rembr.png" alt = "Weightlifting">
+				Have you ever stood somewhere and wondered who else had been there? What had they thought as they stood there? Rembr gives you insight into who's been where you are. Users of Rembr can post and view perspectives based on a location. Rembr was a team project built with MongoDB, Express, Node.js, Bootstrap, and Mapbox.</p>
       </div>
-      <div class="experience">
-        <h1>Experience</h1>
-        <h2>Languages</h2>
-        Ability score loss charm subschool concealment coup de grace darkness disabled entangled huge invisible level natural ability ranged weapon rend special ability stable strength thrown weapon turn resistance water dangers. Ability damage air subtype archon subtype change shape chaos domain critical hit darkness difficulty class fate domain flat-footed force damage helpless intelligence magic domain natural armor bonus nauseated necromancy outsider type party petrified profane bonus standard action thirst turning damage.
+      <div class="skills">
+        <h1><a id="skills"></a>Skills</h1>
+				<hr>
+        <h2>Languages, Frameworks, and Databases</h2>
+				<!-- unordered list -->
+				<ul class = "skills-list">
+						<li>Ruby</li>
+						<li>Ruby on Rails</li>
+						<li>Javascript/jQuery</li>
+						<li>Express</li>
+						<li>Node.js</li>
+						<li>Angular.js</li>
+						<li>MongoDb</li>
+						<li>PostgreSQL</li>
+				</ul>
       </div>
       <div class="contact">
-        <h1>Contact</h1>
+        <h1><a id="contact"></a>Contact</h1>
+				<hr>
       <ul class = "contactbar">
-        <a href = "mailto:lewis2ba@dukes.jmu.edu">Email</a>
-        <a href = "https://github.com/lewis2ba">GitHub</a>
-        <a href = "https://www.linkedin.com/pub/brendan-lewis/66/130/b0a">Linkedin</a>
+        <li><a href = "mailto:lewis2ba@dukes.jmu.edu">Email</a></li>
+        <li><a href = "https://github.com/lewis2ba">GitHub</a></li>
+        <li><a href = "https://www.linkedin.com/pub/brendan-lewis/66/130/b0a">Linkedin</a></li>
       </ul>
       </div>
 		</main>

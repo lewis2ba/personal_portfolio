@@ -4,46 +4,64 @@
 body{
   width: 100%;
   height: auto;
-  font-family: "Helvetica";
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
 }
 header{
-  background-image: url("http://images6.fanpop.com/image/photos/36100000/Christmas-image-christmas-36118465-1920-1200.jpg");
-  height: 400px;
+  background-image: url("http://www.hq.nasa.gov/office/pao/History/alsj/a15/a15north1221435dmh.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 550px;
+}
+hr{
+  width: 30%;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid black;
+  padding: 0;
+
 }
 #intro{
-  padding-top: 120px;
+  padding-top: 100px;
 }
 .nav-bar{
-  text-align: right;
+  position: fixed;
+  width: 35%;
+  margin: 0px;
+  padding: 10px 0 10px 10px;
 }
 h1{
-  color: black;
+  color: white;
   text-align: center;
   margin: 0 auto;
   font-weight: normal;
-  padding: 25px 0 0px 0;
+  padding: 30px 0 0px 0;
+
 }
 h2{
   color: black;
   text-align: center;
   margin: 0 auto;
   font-weight: normal;
-  padding: 25px 0 20px 0;
-  margin: 10px 0 0 0;
+  padding: 20px 0 10px 0;
+  margin: 10px 0 10px 0;
 }
 .about{
   background: lightgray;
   display: inline-block;
   max-width: 100%;
 }
-.about p{
+.about p, h2{
   max-width: 55%;
-  text-align: justify;
   margin: 0 auto;
+}
+.about p{
   padding: 0 0 50px 0;
 }
+
 li{
   display: inline;
+  padding: 0 5px 0 5px;
 }
 
 .about img{
@@ -56,11 +74,13 @@ li{
 
 .projects{
   background: #A0A0A0;
-  display: inline-block;
   max-width: 100%;
+  display: inline-block;
+  padding: 20px 0 40px 0;
 }
 .projects img{
   max-width: 40%;
+  height: auto;
   border-radius: 25px;
   border: black solid 5px;
   float: left;
@@ -71,15 +91,43 @@ li{
   text-align: justify;
   margin: 0 auto;
   max-height: 70%;
+  margin-bottom: 50px;
 }
-.experience{
+.projects h2{
+  text-align: right;
+  max-width: 35%;
+}
+.skills{
   max-width: 100%;
-
+  margin: 0 auto;
+  background: #909090;
+  padding: 0 0 35px 0;
+}
+.skills-list li{
+  display: block;
+  text-align: center;
+}
+.skills-list{
+  padding-left: 0px;
 }
 .contact{
   max-width: 100%;
+  background: #787878;
 }
 
 .contactbar{
   text-align: center;
+  padding: 0 0 200px 0px;
+}
+.nav-bar a{
+  color: white;
+  text-decoration: none;
+}
+
+.contact a{
+  color: black;
+  text-decoration: none;
+}
+#intro h2{
+  color: white;
 }
